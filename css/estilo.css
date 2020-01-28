@@ -1,0 +1,51 @@
+
+input[type=text]{
+	display: block;
+}
+
+section form label{
+	font-size: 18px;
+	font-family: sans-serif, verdana, arial;
+}
+
+section form fieldset legend{
+	font-size: 25px;
+}
+
+textarea{
+	width: 250px;
+	height: 80px;
+}
+
+input[type=submit]{
+	border: 0;
+	width: 100px;
+	height: 25px;
+ 	background: #696969;
+ 	font-size: 15px;
+ 	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background: #FF8C00;
+}
+
+#wrapper{
+	width: 400px;
+	margin: auto;
+	padding: 10px 20px;
+	background: lightslategray;
+	font-family: Helvetica;
+}
+
+#content{
+	width: 300px;
+	margin: center;
+	padding: 10px 20px;
+	background: lightgray;
+}
+
+#footer{
+	padding-left: 300px;
+}
+
