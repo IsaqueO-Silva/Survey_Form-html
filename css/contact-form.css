@@ -1,0 +1,47 @@
+*{ text-align: center; }
+body{ 
+    background-image: url("../images/background/contact-us.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#contact-form{
+    margin: auto;
+    height: 42.2em;
+    width: 27em;
+    background: white;
+    box-shadow: 1.5px 1.5px 8px #5C5B5B;
+}
+#contact-form p:nth-of-type(1) {
+    font-size: 3em;
+    padding-top: 2%;
+}
+#contact-form input:nth-of-type(1){
+    text-align: left;
+}
+label{
+    padding-top: 0.5%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+textarea{
+    resize: none;
+    box-shadow: 1px 1px 1.5px black;
+}
+input.form-control, textarea.form-control{
+    width: 70%;
+    margin: auto;
+}
+#btnContact{
+    margin-top: 0.7%;
+    width: 10em;
+    height: 3em;
+    background-color: #0DA981;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif, 'Oswald';
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2.5px 4px 2px grey;
+}
